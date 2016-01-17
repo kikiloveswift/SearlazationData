@@ -16,6 +16,8 @@ int main(int argc, const char * argv[]) {
         id json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
         NSLog(@"json is %@",json);
         NSString *jsonStr = [json objectForKey:@"param"];
+        NSString *url = [json objectForKey:@"url"];
+        NSLog(@"url is*********%@",url);
         
         NSData *dataJson = [jsonStr dataUsingEncoding:NSUTF8StringEncoding];
         id result = [NSJSONSerialization JSONObjectWithData:dataJson options:0 error:nil];
