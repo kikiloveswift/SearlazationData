@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FCA06E281C4A278300C208F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA06E271C4A278300C208F5 /* main.m */; };
+		FCAF9B071C4BE7B900789CD9 /* JsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAF9B061C4BE7B900789CD9 /* JsonModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		FCA06E241C4A278300C208F5 /* SearlazationData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SearlazationData; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA06E271C4A278300C208F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCAF9B051C4BE7B900789CD9 /* JsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonModel.h; sourceTree = "<group>"; };
+		FCAF9B061C4BE7B900789CD9 /* JsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				FCA06E271C4A278300C208F5 /* main.m */,
+				FCAF9B051C4BE7B900789CD9 /* JsonModel.h */,
+				FCAF9B061C4BE7B900789CD9 /* JsonModel.m */,
 			);
 			path = SearlazationData;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCA06E281C4A278300C208F5 /* main.m in Sources */,
+				FCAF9B071C4BE7B900789CD9 /* JsonModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +243,7 @@
 				FCA06E2D1C4A278300C208F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
